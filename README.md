@@ -97,7 +97,7 @@ GET /api
 Once deployed, access your API at:
 
 ````plaintext
-https://basic-information-public-api.onrender.com
+https://basic-information-public-api.onrender.com/api/v1/basic-info
 ```
 
 ---
@@ -113,7 +113,7 @@ Pull requests are welcome! If you'd like to contribute, please **fork the reposi
 ---
 
 ### **📧 Contact**
-For any questions or suggestions, reach out via email: `your.email@example.com`.
+For any questions or suggestions, reach out via email: `umehobiarinze2@gmail.com`.
 
 ---
 
