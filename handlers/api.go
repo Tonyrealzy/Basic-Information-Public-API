@@ -10,7 +10,7 @@ import (
 func GetBasicInfo(c *gin.Context) {
 	response:= map[string]string {
 		"email": config.Email,
-		"timestamp": time.Now().UTC().Format(time.RFC3339),
+		"current_timestamp": time.Now().UTC().Format(time.RFC3339),
 		"github_url": config.GithubURL,
 	}
 	c.JSON(http.StatusOK, response)

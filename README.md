@@ -9,7 +9,7 @@ This is a simple public API built with **Golang** that returns:
 - The **GitHub repository URL** of this project
 
 This API is **CORS-enabled** and serves JSON responses over HTTP. It accepts only `GET` requests.
-
+#### [https://basic-information-public-api.onrender.com/api/v1/basic-info](https://basic-information-public-api.onrender.com/api/v1/basic-info)
 ---
 
 ## 🚀 Getting Started
@@ -78,7 +78,7 @@ GET /api
 ```json
 {
   "email": "umehobiarinze2@gmail.com",
-  "datetime": "2025-01-29T12:00:00Z",
+  "current_datetime": "2025-01-29T12:00:00Z",
   "github_url": "https://github.com/Tonyrealzy/Basic-Information-Public-API"
 }
 ```
