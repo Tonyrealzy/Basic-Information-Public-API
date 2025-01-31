@@ -9,7 +9,7 @@ This is a simple public API built with **Golang** that returns:
 - The **GitHub repository URL** of this project
 
 This API is **CORS-enabled** and serves JSON responses over HTTP. It accepts only `GET` requests.
-#### [https://basic-information-public-api.onrender.com/basic-info](https://basic-information-public-api.onrender.com/basic-info)
+#### [https://basic-information-public-api.onrender.com/info](https://basic-information-public-api.onrender.com/info)
 ---
 
 ## 🚀 Getting Started
@@ -48,7 +48,7 @@ Ensure you have the following installed:
 Open your browser or run:
 
 ```sh
-curl -X GET http://localhost:8080/basic-info
+curl -X GET http://localhost:8080/info
 ```
 
 ---
@@ -66,7 +66,7 @@ GET /api
 | Field        | Type   | Description                        |
 | ------------ | ------ | ---------------------------------- |
 | `email`      | string | Your email address                 |
-| `datetime`   | string | Current datetime (ISO 8601 format) |
+| `current_datetime`   | string | Current datetime (ISO 8601 format) |
 | `github_url` | string | GitHub repository URL              |
 
 ---
@@ -97,7 +97,7 @@ GET /api
 Once deployed, access your API at:
 
 ````plaintext
-https://basic-information-public-api.onrender.com/basic-info
+https://basic-information-public-api.onrender.com/info
 ```
 
 ---

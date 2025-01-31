@@ -13,7 +13,7 @@ func main () {
 	r.Use(middleware.SetUpCORS())
 
 	// Define routes
-	r.GET("/basic-info", handlers.GetBasicInfo)
+	r.GET("/info", handlers.GetBasicInfo)
 
 	// Start the server
 	r.Run(":8080")
