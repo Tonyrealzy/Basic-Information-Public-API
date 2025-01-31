@@ -78,7 +78,7 @@ GET /api
 ```json
 {
   "email": "umehobiarinze2@gmail.com",
-  "datetime": "2025-01-29T12:00:00Z",
+  "current_datetime": "2025-01-29T12:00:00Z",
   "github_url": "https://github.com/Tonyrealzy/Basic-Information-Public-API"
 }
 ```
